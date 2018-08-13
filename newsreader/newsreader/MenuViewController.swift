@@ -19,7 +19,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     var tag:Int = 0
     var tagSection:Int = 0
     
-    
+    ;;;;;;;;;;;;;;;;;
     
     static let categoryArray =
         ["国内", "国際", "経済", "エンタメ", "スポーツ", "IT・科学", "地域"]
