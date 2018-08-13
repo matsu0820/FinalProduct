@@ -207,8 +207,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記事タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMe-QU-7zT">
+                                            <rect key="frame" x="16" y="11" width="288" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uC-br-CyD">
-                                            <rect key="frame" x="312" y="6" width="55" height="30"/>
+                                            <rect key="frame" x="277" y="6" width="55" height="30"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="55" id="8gb-jM-RTZ"/>
                                             </constraints>
@@ -218,21 +224,15 @@
                                                 <action selector="bookMark:" destination="UM9-UC-Lkw" eventType="touchUpInside" id="bSl-BA-Wer"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記事タイトル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMe-QU-7zT">
-                                            <rect key="frame" x="16" y="11" width="288" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="bMe-QU-7zT" firstAttribute="centerY" secondItem="0uC-br-CyD" secondAttribute="centerY" id="943-Va-ZXH"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="0uC-br-CyD" secondAttribute="trailing" constant="-8" id="AQ8-bK-xV4"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="0uC-br-CyD" secondAttribute="trailing" constant="27" id="AQ8-bK-xV4"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="bMe-QU-7zT" secondAttribute="bottom" constant="1" id="DxV-Oz-E72"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="0uC-br-CyD" secondAttribute="bottom" constant="-3" id="ntb-wh-KZ4"/>
                                         <constraint firstItem="bMe-QU-7zT" firstAttribute="leading" secondItem="yqV-2n-kSL" secondAttribute="leadingMargin" id="v9J-Ig-ApM"/>
                                         <constraint firstItem="bMe-QU-7zT" firstAttribute="top" secondItem="yqV-2n-kSL" secondAttribute="topMargin" id="ydP-A6-4RN"/>
-                                        <constraint firstItem="0uC-br-CyD" firstAttribute="leading" secondItem="bMe-QU-7zT" secondAttribute="trailing" constant="8" symbolic="YES" id="zOa-k1-HnO"/>
+                                        <constraint firstItem="0uC-br-CyD" firstAttribute="leading" secondItem="bMe-QU-7zT" secondAttribute="trailing" constant="-27" id="zOa-k1-HnO"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -266,7 +266,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJC-Hl-dGW">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="-24" width="375" height="44"/>
                             </navigationBar>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJO-NM-OH4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
@@ -344,7 +344,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XkU-6z-JsU"/>
+        <segue reference="K38-9x-7zG"/>
         <segue reference="c09-S2-M2J"/>
     </inferredMetricsTieBreakers>
 </document>
