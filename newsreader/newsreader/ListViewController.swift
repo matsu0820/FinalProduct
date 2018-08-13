@@ -181,7 +181,7 @@ class ListViewController: UITableViewController, XMLParserDelegate {
                 print("アクション１をタップした時の処理")
                 deleteFavo()
             })
-            //キャンセルアクション
+            //キャンセルアクションだよーーーーー
             let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel, handler:nil)
             
             alert.addAction(okAction)
