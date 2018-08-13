@@ -24,7 +24,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     static let categoryArray =
         ["国内", "国際", "経済", "エンタメ", "スポーツ", "IT・科学", "地域"]
     static let favarite = ["お気に入り"]
-    static let top = ["新しい"]
+    static let top = ["new"]
     
     
     var category = ["","","ジャンル"]
